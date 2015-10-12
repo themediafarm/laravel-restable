@@ -357,7 +357,7 @@ class Restable implements RestableContract {
             // In case JSON we don't need to convert anything.
             case 'json' :
             default :
-                $response = $this->response->json($returned['response'], $returned['header']);
+                $response = $this->response->json($returned['response'], $returned['header'], [], JSON_NUMERIC_CHECK);
 
                 // Support JSONP Response.
                 if ($callback)
