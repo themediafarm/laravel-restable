@@ -1,5 +1,7 @@
 ## RESTful format response for Laravel
 
+### This is a fork of teeplus/restable simply to add in the numeric check for json_encode.
+
 ### For Laravel 4, please use the [v1.x branch](https://github.com/teepluss/laravel-restable/tree/v1.x)!
 
 Restable is a useful to create RESTful API response format that support multiple format, such as Json, XML
